@@ -10,6 +10,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.scritta{
+    font-size: 30px;
+    padding-bottom: 5px;
 }
 
 .container{
@@ -26,7 +32,7 @@ body{
 
 .numero{
     width: 110px;
-    height: 110px;
+    height: 106px;
     font-size: 100px;
     line-height: 110px;
     text-align: center;
