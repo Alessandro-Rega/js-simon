@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 555px;
+    height: 110px;
+    border: 2px solid blue;
+}
+
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.numero{
+    width: 110px;
+    height: 110px;
+    font-size: 100px;
+    line-height: 110px;
+    text-align: center;
+    float: left;
+    border-left: 1px solid black;
+}
+
+.numero:first-child{
+    border-left: none;
+}
